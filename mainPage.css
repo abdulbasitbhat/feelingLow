@@ -1,0 +1,176 @@
+/*This is a CSS version of page, comment this when only HTML version*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea{
+    color:#457b9d;
+    background-color:#f1faee ;
+    width:100%;
+    border:2px solid #ffd166;
+    border-radius:5px;
+    
+}
+
+.Thoughts{
+    background-color:#00b4d8;
+    border:1px solid #00b4d8;
+    border-radius:7px;
+    margin:80px 10px 80px 10px;
+    transition:2.5s;
+    padding:5%;
+}
+.Thoughts:hover{
+    background-color: #41b350;
+   /* padding:2%;*/
+}
+
+#quotes{
+    background-color:#ffd166bc ;
+    line-height: 2;
+    font-family: cursive;
+    border:2px solid #ffd166bc;
+    border-radius:7px;
+    /*padding:20px;*/
+    margin:80px 60px 80px 60px;
+    transition:all 2.5s;
+    padding:5%;
+}
+#quotes:hover,#videos:hover{
+    background-color: #41b350;
+    border-color:#41b350;
+    border-radius:20px;
+    
+}
+#quotes:hover{
+    padding:2%;
+}
+
+header{
+   /* background-color: #00b4d8;*/
+    text-align: center;
+    letter-spacing: 4px;
+    border-width:2px;
+    border-color:#00b4d8;
+    /*border-style: solid;
+    border-radius:10px;
+    box-sizing:border-box;*/
+}
+#play{
+    margin:80px 40px 80px 40px;
+}
+#vid{
+    border:2px solid #ede6e6;
+    border-radius: 2px;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#play,#para{
+    background-color: #ede6e6;
+    border:5px solid #ede6e6;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin:80px 40px 80px 40px;
+}
+
+body{
+    background-color: #e9ecef;
+    font-family: helvetica;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#videos{
+    background-color:#ead39d ;
+    font-family: cursive;
+    border:1px solid #ead39d ;
+    border-radius:7px;
+    padding:5px;
+    margin-top: 40px; 
+    margin:80px 40px 80px 40px;
+    text-align: center;
+    transition:all 2s;
+}
+#videos:hover{
+    background-color:#41b350;
+    border:1px solid #41b350;
+    padding:4%;
+}
+
+h2{
+    text-align: center;
+    letter-spacing:3px;
+}
+
+h1,h2,header{
+    font-family: cursive;
+}
+
+
+#Feel-Box,#Feel-Box2{
+    background-color: #ffd166;
+    border:5px solid #ffd166;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom: 10px; 
+    padding:5px;
+    margin:80px 40px 80px 40px;
+    transition:background-color 1s,border-color 1s;
+}
+#Feel-Box:hover,#Feel-Box2:hover{
+    background-color: #41b350;
+    border-color: #41b350;
+}
+
+#vid{
+    border:5px solid #00b4d8;
+    border-radius:5px;
+    width:70%;
+}
+
+article{
+    text-align: right;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    padding:2%;
+    
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    padding:5%;
+}
+
+#clear{
+    background-color: #00b4d8;
+    margin-bottom: 3%;
+    border:2px solid #00b4d8;
+    border-radius:8px;
+    /*Below code, centers an element*/
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2%;
+    transition: 2s;
+}
+
+q{
+    font-size: 1em;
+}
+#clear:hover{
+    background-color: #41b350;
+    border-color: #41b350;
+}
+
