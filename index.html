@@ -6,18 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FeelingLow.com</title>
     <link rel="icon" href="https://cdn-icons.flaticon.com/png/512/4587/premium/4587595.png?token=exp=1655838119~hmac=ccde8926957d0ef66729b4fa8b5f51da"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="mainPage.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@518&family=League+Gothic&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&family=Raleway:wght@800&family=Roboto&family=Trispace:wght@200;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@518&family=League+Gothic&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&family=Raleway:wght@800&family=Roboto:ital@1&family=Trispace:wght@200;300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="b">
     <script src="page.js"></script>
     <div id="Head">
         <header>
@@ -28,18 +22,15 @@
     <div id="play">
         Play It Friend.
         <br>
-        <span>
         <iframe id="vid" width="100%" height=500px src="https://www.youtube.com/embed/Tmtfhud4cUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-    </span>
-        <span>
-        <article>
+    <br>
+        <div id="more">
             More Like This
             <br>
             <a href="https://www.youtube.com/watch?v=W1xwTqgzQ_g">Morning Upbeat</a>
             <br>
             <a href="https://www.youtube.com/watch?v=ubnDMTUui1Y">Good Vibes Only</a>
-        </article>
-        </span>
+    </div>
         <br>
         Now, While listening to this, let me take you to a ride...
     </div>
@@ -47,7 +38,7 @@
         <br>
         <label for="text_area">Drop all your feelings, your worries, in this box. I am sure you will forget them by the end. And if not, then they will at least not be a huge matter by the end.</label>
         <br>
-        <textarea id="text_area" rows="5" cols="100%" >Type Here mate!</textarea>
+        <textarea id="text_area" rows="5" cols="100%" >Type Here friend!</textarea>
     </div>
     <div id="Main-Body">
         <!--Happy Images-->
@@ -158,7 +149,7 @@
 
 <footer>
     <div id="Feel-Box2">
-        <label for="text_area2">Write your feelings now mate</label>
+        <label for="text_area2">Write your feelings now friend</label>
         <textarea id="text_area2" rows="5" cols="200" >Type Here mate!</textarea>
     </div>
    <button id="clear" onclick="clearr()" scrollTo="text_area">Clear Trash Thought Box</button>  <!-- add function using javascript-->
