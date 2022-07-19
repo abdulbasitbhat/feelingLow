@@ -1,13 +1,11 @@
 /*This is a CSS version of page, comment this when only HTML version*/
 
-body{
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 textarea{
     color:#457b9d;
     background-color:#f1faee ;
-    width:100%;
+    width:99%;
     border:2px solid #ffd166;
     border-radius:5px;
     
@@ -29,13 +27,14 @@ textarea{
 #quotes{
     background-color:#ffd166bc ;
     line-height: 2;
-    font-family: cursive;
+    /*font-family: cursive;*/
     border:2px solid #ffd166bc;
     border-radius:7px;
     /*padding:20px;*/
     margin:80px 60px 80px 60px;
     transition:all 2.5s;
-    padding:5%;
+    margin:4%;
+    padding:3%;
 }
 #quotes:hover,#videos:hover{
     background-color: #41b350;
@@ -44,7 +43,7 @@ textarea{
     
 }
 #quotes:hover{
-    padding:2%;
+    margin:3%;
 }
 
 header{
@@ -58,28 +57,42 @@ header{
     box-sizing:border-box;*/
 }
 #play{
-    margin:80px 40px 80px 40px;
+    margin:3% 3% 3% 3%;
 }
 #vid{
     border:2px solid #ede6e6;
     border-radius: 2px;
-    width:70%;
+    width:98%;
     display:block;
     margin-left:auto;
     margin-right:auto;
 }
+
+@media (max-width:400px){
+    #vid{
+    height:100%;
+    width:100%;
+    }
+}
 #play,#para{
-    background-color: #ede6e6;
-    border:5px solid #ede6e6;
+    background-color: #76cdff;
+    border:5px solid #76cdff;
     border-radius:5px;
-    margin-top:10px;
-    margin-bottom: 10px;
-    margin:80px 40px 80px 40px;
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:3%;
+    margin-right:3%;
+}
+
+#para:hover{
+    background-color: #66c861;
+    border:5px solid #66c861;
+
 }
 
 body{
     background-color: #e9ecef;
-    font-family: helvetica;
+    /*font-family: helvetica;*/
 }
 
 a{
@@ -89,19 +102,21 @@ a{
 
 #videos{
     background-color:#ead39d ;
-    font-family: cursive;
+    /*font-family: cursive;*/
     border:1px solid #ead39d ;
     border-radius:7px;
-    padding:5px;
-    margin-top: 40px; 
-    margin:80px 40px 80px 40px;
+    padding:2%;
+    margin-top: 1%; 
+   margin-left:1%;
+   margin-right:1%;
     text-align: center;
     transition:all 2s;
 }
 #videos:hover{
     background-color:#41b350;
     border:1px solid #41b350;
-    padding:4%;
+   /* padding:4%;*/
+   margin:3%;
 }
 
 h2{
@@ -118,10 +133,12 @@ h1,h2,header{
     background-color: #ffd166;
     border:5px solid #ffd166;
     border-radius:5px;
-    margin-top:10px;
-    margin-bottom: 10px; 
-    padding:5px;
-    margin:80px 40px 80px 40px;
+    margin-top:3%;
+    margin-bottom: 3%; 
+    padding:2%;
+   /* margin:80px 40px 80px 40px;*/
+   margin-left:2%;
+   margin-right:2%;
     transition:background-color 1s,border-color 1s;
 }
 #Feel-Box:hover,#Feel-Box2:hover{
@@ -130,7 +147,7 @@ h1,h2,header{
 }
 
 #vid{
-    border:5px solid #00b4d8;
+    border:5px solid #ede6e6;
     border-radius:5px;
     width:70%;
 }
@@ -172,5 +189,15 @@ q{
 #clear:hover{
     background-color: #41b350;
     border-color: #41b350;
+}
+
+#more{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b{
+    font-family: 'Roboto', sans-serif;
 }
 
