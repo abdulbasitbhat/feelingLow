@@ -125,7 +125,7 @@ h2{
 }
 
 h1,h2,header{
-    /*font-family: cursive;*/
+   /* font-family: cursive;*/
 }
 
 
@@ -199,5 +199,6 @@ q{
 
 #b{
     font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
 }
 
