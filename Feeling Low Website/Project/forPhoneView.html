@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeelingLow.com</title>
+    <link rel="icon" href="https://cdn-icons.flaticon.com/png/512/4587/premium/4587595.png?token=exp=1655838119~hmac=ccde8926957d0ef66729b4fa8b5f51da"/>
+    <link rel="stylesheet" href="mainPage.css">
+    <style>
+        /*This is a CSS version of page, comment this when only HTML version*/
+/*This is a CSS version of page, comment this when only HTML version*/
+textarea{
+    color:#457b9d;
+    background-color:#f1faee ;
+    width:100%;
+    border:2px solid #ffd166;
+    border-radius:5px;
+}
+
+.Thoughts{
+    background-color:#00b4d8;
+    border:1px solid #00b4d8;
+    border-radius:7px;
+    margin:80px 10px 80px 10px;
+    transition:background-color 1s;
+}
+.Thoughts:hover{
+    background-color: #457b9d;
+}
+
+#quotes{
+    background-color:#ffd166bc ;
+    line-height: 2;
+    font-family: cursive;
+    border:2px solid #ffd166bc;
+    border-radius:7px;
+    padding:20px;
+    margin:80px 60px 80px 60px;
+    transition:all 1s;
+}
+#quotes:hover,#videos:hover{
+    background-color: #ffd166;
+    border-color:#ffd166;
+    border-radius:20px;
+}
+
+header{
+   /* background-color: #00b4d8;*/
+    text-align: center;
+    letter-spacing: 4px;
+    border-width:2px;
+    border-color:#00b4d8;
+    /*border-style: solid;
+    border-radius:10px;
+    box-sizing:border-box;*/
+}
+#play{
+    margin:80px 40px 80px 40px;
+}
+#vid{
+    border:2px solid #ede6e6;
+    border-radius: 2px;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#play,#para{
+    background-color: #ede6e6;
+    border:5px solid #ede6e6;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin:80px 40px 80px 40px;
+}
+
+body{
+    background-color: #e9ecef;
+    font-family: helvetica;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#videos{
+    background-color:#ac9254 ;
+    font-family: cursive;
+    border:1px solid #ac9254;
+    border-radius:7px;
+    padding:5px;
+    margin-top: 40px; 
+    margin:80px 40px 80px 40px;
+    text-align: center;
+    transition:all 1s;
+}
+#videos:hover{
+    background-color:#f1b939;
+    border:1px solid #f1b939;
+
+}
+
+h2{
+    text-align: center;
+    letter-spacing:3px;
+}
+
+h1,h2,header{
+    font-family: cursive;
+}
+
+
+#Feel-Box,#Feel-Box2{
+    background-color: #ffd166;
+    border:5px solid #ffd166;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom: 10px; 
+    padding:5px;
+    margin:80px 40px 80px 40px;
+    transition:background-color 1s,border-color 1s;
+}
+#Feel-Box:hover,#Feel-Box2:hover{
+    background-color: #ecab14;
+    border-color: #ecab14;
+}
+
+#vid{
+    border:5px solid #00b4d8;
+    border-radius:5px;
+    width:70%;
+}
+
+article{
+    text-align: right;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="Head">
+        <header>
+            <h1>FeelingLow.com</h1>
+        </header>
+        <hr>
+    </div>
+    <div id="play">
+        Play It Friend.
+        <br>
+        <span>
+        <iframe id="vid" width="100%" height=500px src="https://www.youtube.com/embed/Tmtfhud4cUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+    </span>
+        <span>
+        <article>
+            More Like This
+            <br>
+            <a href="https://www.youtube.com/watch?v=W1xwTqgzQ_g">Morning Upbeat</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=ubnDMTUui1Y">Good Vibes Only</a>
+        </article>
+        </span>
+        <br>
+        Now, While listening to this, let me take you to a ride...
+    </div>
+    <div id="Feel-Box">
+        <br>
+        <label for="text_area">Drop all your feelings, your worries, in this box. I am sure you will forget them by the end. And if not, then they will at least not be a huge matter by the end.</label>
+        <br>
+        <textarea id="text_area" rows="5" cols="100%" >Type Here mate!</textarea>
+    </div>
+    <div id="Main-Body">
+        <!--Happy Images-->
+        <div class="Thoughts">
+        <h2>In this time of stress and anxiety, Lets relax a bit and get connected to things that matter.</h2>
+        <p>
+            Look at these pictures below. Try to remember a time in your life that makes you relate to anyone of them.
+            Once found, deep breathe in and out in a controlled manner. Try to recall the memory. Try to feel the smell, 
+            the scene, the warmth and the feelings. 
+        </p>
+        </div>
+        <hr>
+        <span class="ImageRecall">
+        <p>
+        <!--<img src="Images/1.jpg" id="1" width="49%" height="49%">
+        <img src="Images/2.jpg" id="2" width="49%" height="49%">-->
+        <iframe src="https://drive.google.com/file/d/1_pCuozSZmMOfqqIPr9bCyx4rvatrUvPr/preview" width="70%" height="480" ></iframe>
+        <iframe src="https://drive.google.com/file/d/10g2b9Ojtaqxx715i_r5aKysjR1IzNTDC/preview" width="70%" height="480" ></iframe>
+        </p> 
+        <p>
+            <!--
+        <img src="Images/3.jpg" id="3" width="49%" height="49%">
+        <img src="Images/4.jpg" id="4" width="49%" height="49%"> -->
+        <iframe src="https://drive.google.com/file/d/1as99QVIiife2D86JQ8TO-d9gb0LsFvuW/preview" width="70%" height="480" allow="autoplay"></iframe>
+        <iframe src="https://drive.google.com/file/d/15Qc7rfvnKpO3685uKSUbr9y_9h8YQMFf/preview" width="70%" height="480" allow="autoplay"></iframe>    
+    </p>
+            <p>
+                <!--
+        <img src="Images/5.jpg" id="5" width="49%" height="49%">
+        <img src="Images/6.jpg" id="6" width="49%" height="49%">-->
+        <iframe src="https://drive.google.com/file/d/1qfyONXsaYBk_-rL0-KzSNaA-Us-Z_5sc/preview" width="70%" height="480" allow="autoplay"></iframe>
+        <iframe src="https://drive.google.com/file/d/1jmYwgFdiSu3JhJ5SwXavAaFlHUxCBxg_/preview" width="70%" height="480" allow="autoplay"></iframe>
+            </p>
+        </span>
+    <div id="para">
+        <p class="ImageRecall">
+            Dont you want to relive those moments? You can!! Life is not fair and the things you are going through 
+            I surely cant feel. But I just gave you a glimpse of life, your life. Its this life thats been your friend. 
+            Always there for you. Right now it needs a break. 
+        </p>
+        <p class="ImageRecall">
+            Without a second thought, leave everything for a minute. I mean everything. Just relax and give yourself a treat, 
+            the bigger the treat the better. You deserve it. Irrespective of hard things going on, you are still on your knees 
+            and are breathing. You haven't quit, thats the only failure that matters, no other failure actually satisfies the 
+            conditions to actually be called failure. Dont read forward, just do it. Count 1,2,3,4,5 Go Go Go. Wear shoes and 
+            get ready. Its you who can only do this for your own self. Treat yourself as a friend, you and your brain. Treat this 
+            friend.
+        </p>
+    </div>
+        <!--Some happy Quotes-->
+        
+        <div id="quotes">
+            <h2>Quotes</h2>
+            <p>
+                "Sometimes the most productive thing you can do is relax." - Mark Black
+            </p>
+            <p>
+                "Tem years from now you'll laugh at whatever's stressing you out today. So why 
+                not laugh now?" - Tonny Robbins
+            </p>
+            <p>
+                "You must learn to let go. Release the stress. You were never in control anyway." - Steve Maraboli
+            </p>
+            <p>
+                "The time to relax is when you don't have time for it." - Sydney J. Harris
+            </p>
+            <p>
+                "Take rest; a field that has rested gives a bountiful crop." - Ovid
+            </p>
+
+        
+
+        <p>
+            Believe me, once you are out from the dark phase of your life, you will be a great help for someone in the same state 
+            or worse. That time you will be an angel for someone. You will have courtesy for them and thats all they want besides a guidance. - Me
+        </p>
+    </div>
+
+        <!--Some happy non copywright Videos-->
+        <div id="videos">
+            <h2>Videos</h2>
+            <p>
+            Explore the channels further if the content makes you a happy monkey.
+            </p>
+            <br>
+            <br>
+            <nav id="yt_links">
+               <a href="https://youtu.be/U7X6pdVM9cA" target="_blank">Life could be dream</a>
+               <br>
+               <a href="https://youtu.be/9edXr1CS98s" target="_blank">Gratitude</a>
+               <br>
+               <a href="https://youtu.be/a4fv-BtzNmY" target="_blank">Uplift</a>
+               <br>
+               <a href="https://youtu.be/ubnDMTUui1Y" target="_blank">Good Vibes</a>
+            </nav>
+        </div>
+        <!--A textbox for writing feelings and expressing everything-->
+        <!---->
+    </div>
+    <br>
+
+<footer>
+    <div id="Feel-Box2">
+        <label for="text_area2">Write your feelings now mate</label>
+        <textarea id="text_area2" rows="5" cols="200" >Type Here mate!</textarea>
+    </div>
+   <button>Clear Trash Thought Box</button>  <!-- add function using javascript-->
+</footer>
+</body>
+</html>

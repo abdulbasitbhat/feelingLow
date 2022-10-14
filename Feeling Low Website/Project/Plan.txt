@@ -1,0 +1,74 @@
+FeelingLow.com
+
+The plan is to create a website that can help people who are currently in a low
+state. Hopefully with my knowledge and experience of human behaviour, I may be able
+to create a website that can, even if it has a little impact help people at
+difficult times and prevent them from taking bad decisions that can change their lives
+and of their loved ones. 
+
+Cause and need:
+Sad and depressed people dont turn to others for help. They keep it inside 
+untill its too late. The only thing they take help from, is the internet.
+Being in such situations, i have observed the need and its very scarce to find 
+something that helps.
+I also observed that there is a gradual process to get someone out of things.
+If we try to make someone happy in a single go, it dosent work. 
+I observed the need of gradual steps.
+I wont be a Phd in the subject, but my experience had made me capable to get
+some people out of their tough times.
+We can use social engineering for creating addicting apps and hacking. Why not
+in helping people in their difficult times
+Need
+1. Increasing Suicide cases.
+2. Decreasing Social support.
+3. Increased number of lonely people.
+4. Increased number of mental health cases.
+5. Lack of help seaking by suffering people.
+6. Telling someone that you are having issues like depression is a taboo in India.
+
+
+Features.
+1. Starters. 
+   This section contains short 10 sec funny videos, that can just give a small boost
+   to continue.
+2. Escape
+   Features like camping videos, happy people pics, babies or any other cam be 
+   added to make a person forget the things troubling him.
+3. Challenge.
+   The page can be made as a challenge. So that people stick to it till end.
+   At end they will eventually be either happy or satisfied(because of completing
+   the challenge). Both of these will give a person enough dopamine to get rid of
+   bad thoughts.
+4. Motivation
+   After starters we can provide a set of 5 min videos having a bit of motivation factor.
+   Real life examples can be added.
+5. Purpose.
+   People helping others in difficult scenarios can induce a sense of worthyness
+   to the society. Videos of real life heroes can help for this purpose.
+6. Gratitude
+   We can include things that induce gratitude and make one feel a bit at a better place.
+7. Travel to Nirvana
+   We go to the roots and try to send a person back to basics. Back to happy memories
+   and make him conscious of what really matters. Studies or family, health or
+   stress. This can be achieved by a music therapy. We can simply play popular 
+   songs of a year that the user enters accoring to best year of his life. These songs
+   will be a hit or trial to short circuit his neurons back to those memories.
+8. Satisfaction dose
+   Small tasks can be provided to just get a bit of dopamine reward.
+9. Back to basics.
+   In this world of constant overstimulation due to colors, a simple and basic
+   Html only web page can be soothing and a symbol of simplicity. It can be a
+   statement that things dont need to be complicated to work. It has a huge
+   symbolizing meaning.
+
+If the idea scales, we can uses ML in understanding patterns and providing
+better help.
+
+Note:
+Cant we use hackers for this purpose. If the response of user seems to be a bad
+sign, i.e the user is unstable and can take any bad decision. The case can be 
+sent to hackers that just get a contact number of their parents or local police, to
+prevent any mishap. This seems a bit sensless, but while we are focusing on making
+sense of AI tech, why cant we make sense of such an initiative. Cyber police 
+can be used for the same.
+   
